@@ -1,6 +1,6 @@
 {
-  "name": "sequencer-js",
-  "version": "0.0.1",
+  "name": "src/sequencer-js",
+  "version": "0.0.2",
   "description": "executing promise in a sequence",
   "main": "index.js",
   "scripts": {
