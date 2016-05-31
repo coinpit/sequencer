@@ -1,0 +1,36 @@
+{
+  "name": "sequencer-js",
+  "version": "0.0.1",
+  "description": "executing promise in a sequence",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinpit/sequencer-js.git"
+  },
+  "keywords": [
+    "sync",
+    "synchronous",
+    "serialize",
+    "sequence",
+    "coinpit"
+  ],
+  "author": "coinpit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coinpit/sequencer-js/issues"
+  },
+  "homepage": "https://github.com/coinpit/sequencer-js#readme",
+  "dependencies": {
+    "affirm.js": "^1.0.0",
+    "bluebird": "^3.4.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.5.3",
+    "mocha-generators": "^1.2.0",
+    "sinon": "^1.17.4"
+  }
+}
